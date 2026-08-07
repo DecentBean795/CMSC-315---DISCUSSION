@@ -29,7 +29,10 @@ After completing the programming assignment, add this reflection to your initial
 
 Your reflection should be approximately 150–200 words and address the following questions:
 
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. Compare OOP to procedural programming.
-4. Discuss the benefits of maintainability and reusability and apply this managing overhead, practical application development, and future use.
+Working through this assignment really clicked something into place for me. I finally got why people talk about OOP like it's a game-changer. I learned how inheritance lets you build on existing code instead of rewriting it constantly. The ChildClass inheriting from ParentClass felt natural, and seeing how super() lets you call parent methods without duplicating code was satisfying.
+
+The namespace demonstration was the tricky part at first. I kept confusing where variables lived - class versus instance. But once I printed out __dict__ and saw exactly what each object held, it made sense. Same with shallow versus deep copying. Watching the shallow copy break when I modified nested data taught me that "copying" can be misleading if you're not careful.
+
+Procedural programming gets you moving fast, but OOP is like building with LEGO instead of dumping sand. With procedures, you're managing tons of loose functions. With objects, related data and behavior live together.
+
+The real benefit hit me when I realized maintainability means future-me won't hate current-me. If I need to change how skills work, I modify one place, not ten. Reusability cuts overhead because I'm not reinventing the wheel. When I build the next project, I can grab ChildClass and go. That's practical power.
